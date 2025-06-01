@@ -1,7 +1,7 @@
 import { auth, provider } from '../services/firebase';
 import { signInWithPopup } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-import logo from '../assets/group 117.png';
+import logo from '../assets/Group 117.png';
 import Particles from 'react-tsparticles';
 import { loadSlim } from 'tsparticles-slim';
 

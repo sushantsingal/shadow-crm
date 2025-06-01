@@ -53,25 +53,25 @@ OPEN_API_KEY=your_jwt_secret
 ## 🖼️ Screenshots
 
 ### Web View
-![App Screenshot](/img/1)
+![Screen Shot](/images/Screenshot(1).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screen Shot](/images/Screenshot(2).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screen Shot](/images/Screenshot(3).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screen Shot](/images/Screenshot(4).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screen Shot](/images/Screenshot(5).png)
 
 ### Mobile View
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screen Shot](/images/Screenshot(6).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screen Shot](/images/Screenshot(7).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screen Shot](/images/Screenshot(8).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screen Shot](/images/Screenshot(9).png)
 
 
 

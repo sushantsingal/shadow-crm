@@ -65,13 +65,13 @@ OPEN_API_KEY=your_jwt_secret
 
 ### Mobile View
 
-![Screen Shot](/images/Screenshot(6).png)
+![Screen Shot](/images/Screenshot(6).jpg)
 
-![Screen Shot](/images/Screenshot(7).png)
+![Screen Shot](/images/Screenshot(7).jpg)
 
-![Screen Shot](/images/Screenshot(8).png)
+![Screen Shot](/images/Screenshot(8).jpg)
 
-![Screen Shot](/images/Screenshot(9).png)
+![Screen Shot](/images/Screenshot(9).jpg)
 
 
 

@@ -53,7 +53,7 @@ OPEN_API_KEY=your_jwt_secret
 ## 🖼️ Screenshots
 
 ### Web View
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/img/1)
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 

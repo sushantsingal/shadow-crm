@@ -1,17 +1,22 @@
 import mongoose from 'mongoose';
 
 const CampaignSchema = new mongoose.Schema({
-  name: String,
-  audience: Array,
-  message: String,
-  stats: {
-    sent: Number,
-    failed: Number
+  name: {
+    type: String,
+    required: true,
   },
-  createdAt: {
-    type: Date,
-    default: Date.now
-  }
-});
+  audience: {
+    type: [String],
+    required: true,
+  },
+  message: {
+    type: String,
+    required: true,
+  },
+  stats: {
+    sent: { type: Number, default: 0 },
+    failed: { type: Number, default: 0 },
+  },
+}, { timestamps: true });
 
 export default mongoose.model('Campaign', CampaignSchema);

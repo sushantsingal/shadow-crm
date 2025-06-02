@@ -14,6 +14,10 @@ app.use(express.json());
 app.use('/api/campaigns', campaignRoutes);
 app.use('/api/vendor', vendorRoutes);
 
+app.get('/', (req, res) => {
+  res.send('API Backend is alive!');
+});
+
 const PORT = process.env.PORT || 5000;
 mongoose
   .connect(process.env.MONGO_URI, {

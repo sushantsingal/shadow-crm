@@ -7,7 +7,7 @@ const Campaigns = () => {
   const [campaigns, setCampaigns] = useState([]);
 
   useEffect(() => {
-    fetch('http://shadow-crm-backend.vercel.app/api/campaigns')
+    fetch('http://shadow-crm-backend.vercel.app/api/campaigns/all')
       .then((res) => res.json())
       .then((data) => setCampaigns(data))
       .catch((err) => console.error('Error fetching campaigns:', err));

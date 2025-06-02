@@ -6,7 +6,11 @@ const router = express.Router();
 
 
 router.post('/create', async (req, res) => {
-  const { audience, message } = req.body;
+  const { name, audience, message } = req.body;
+
+  if (!name || typeof name !== 'string' || name.trim() === '') {
+    return res.status(400).json({ error: 'Campaign name is required and must be a non-empty string.' });
+  }
 
   if (!audience || !Array.isArray(audience) || audience.length === 0) {
     return res.status(400).json({ error: 'Audience list is required and must be an array.' });
@@ -21,6 +25,7 @@ router.post('/create', async (req, res) => {
     const failed = audience.length - sent;
 
     const campaign = await Campaign.create({
+      name: name.trim(),
       audience,
       message,
       stats: { sent, failed },
